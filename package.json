@@ -1,7 +1,7 @@
 {
   "name": "element-components",
   "version": "1.6.17",
-  "author": "Zehui Chan <jasonchenzehui@gmail.com>",
+  "author": "LiuJiaYing",
   "main": "dist/ElementComponents.umd.min.js",
   "scripts": {
     "start": "npm run serve",
