@@ -1,0 +1,120 @@
+.vue-treeselect {
+}
+
+.vue-treeselect__control {
+  border-radius: 4px;
+}
+
+.vue-treeselect__input {
+  -webkit-appearance: none;
+  background-image: none;
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box;
+  color: #606266;
+  outline: none;
+}
+
+.vue-treeselect__label {
+  font-size: 14px;
+  padding: 0 20px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #606266;
+  height: 32px;
+  line-height: 32px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.vue-treeselect__option--selected .vue-treeselect__label {
+  color: #409eff;
+}
+
+.vue-treeselect__placeholder,
+.vue-treeselect__single-value {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.v-tree-select__large {
+  font-size: 14px;
+
+  .vue-treeselect__control {
+    height: 40px;
+    line-height: 22px;
+  }
+
+  .vue-treeselect__placeholder,
+  .vue-treeselect__single-value {
+    line-height: 40px;
+  }
+
+  .vue-treeselect__multi-value-item {
+    font-size: 14px;
+  }
+}
+
+.v-tree-select__medium {
+  font-size: 14px;
+
+  .vue-treeselect__control {
+    height: 36px;
+    line-height: 18px;
+  }
+
+  .vue-treeselect__placeholder,
+  .vue-treeselect__single-value {
+    line-height: 34px;
+  }
+
+  .vue-treeselect__multi-value-item {
+    font-size: 14px;
+  }
+}
+
+.v-tree-select__small {
+  font-size: 13px;
+
+  .vue-treeselect__control {
+    height: 32px;
+    line-height: 14px;
+  }
+
+  .vue-treeselect__placeholder,
+  .vue-treeselect__single-value {
+    line-height: 30px;
+  }
+
+  .vue-treeselect__multi-value-item {
+    font-size: 13px;
+  }
+}
+
+.v-tree-select__mini {
+  font-size: 12px;
+
+  .vue-treeselect__control {
+    height: 28px;
+    line-height: 13px;
+  }
+
+  .vue-treeselect__placeholder,
+  .vue-treeselect__single-value {
+    line-height: 25px;
+  }
+
+  .vue-treeselect__multi-value {
+    margin-bottom: 1px;
+  }
+
+  .vue-treeselect__multi-value-item-container {
+    padding-top: 3px;
+  }
+
+  .vue-treeselect__multi-value-item {
+    font-size: 12px;
+  }
+}
